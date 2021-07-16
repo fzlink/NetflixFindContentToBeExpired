@@ -1,10 +1,11 @@
 # NetflixFindContentToBeExpired
 
 ## Installation
-'''python
+```python
 pip install selenium
-'''python
+```
 ## Usage
+```python
 #Enter local Netflix Login Page
 driver.get('https://www.netflix.com/Login?locale=tr-TR') 
 
@@ -21,3 +22,4 @@ for country in countries:
     #Enter Country Name
     if "Turkey" in country.text: 
         break
+```
