@@ -1,5 +1,7 @@
 # NetflixFindContentToBeExpired
 
+This script tells you which content will leave from your Netflix List
+
 ## Installation
 ```python
 pip install selenium
